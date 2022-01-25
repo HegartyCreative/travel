@@ -2,3 +2,80 @@ body {
   font-family: "Quicksand", sans-serif;
   margin: 0;
 }
+
+/* header */
+
+#page_logo a {
+  padding: 10px;
+  font-family: "Oleo Script", cursive;
+  color: rgb(245, 243, 160);
+  font-size: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+/* nav */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+header a {
+  color: white;
+  font-size: 20px;
+  padding: 12px;
+}
+
+header a:hover {
+  color: rgb(255, 251, 0);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+/* footer */
+
+footer {
+  background-color: black;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer li {
+  height: 80px;
+  width: 80px;
+  padding: 30px;
+  margin: 50px 0px;
+}
+
+footer img {
+  height: 100%;
+  width: 100%;
+}
