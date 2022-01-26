@@ -8,7 +8,7 @@ body {
 #page_logo a {
   padding: 10px;
   font-family: "Oleo Script", cursive;
-  color: rgb(245, 243, 160);
+  color: orange;
   font-size: 50px;
   text-decoration: none;
   text-transform: uppercase;
@@ -36,7 +36,7 @@ header a {
 }
 
 header a:hover {
-  color: rgb(255, 251, 0);
+  color: orange;
 }
 
 ul {
